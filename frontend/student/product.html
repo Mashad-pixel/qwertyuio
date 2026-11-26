@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Food details — trayUP</title>
+  <link rel="stylesheet" href="../css/global.css?v=premium-static-doodle-v3">
+  <link rel="stylesheet" href="../css/components.css?v=scattered-doodle-v1">
+  <link rel="stylesheet" href="../css/student.css?v=scattered-doodle-v1">
+  <link rel="stylesheet" href="../css/responsive.css?v=scattered-doodle-v1">
+</head>
+<body class="student-page">
+  <div id="app-header"></div>
+  <main class="container product-page">
+    <nav class="product-breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">Menu</a><span aria-hidden="true">/</span>
+      <span id="product-category"></span><span aria-hidden="true">/</span>
+      <span id="breadcrumb-name" aria-current="page"></span>
+    </nav>
+
+    <section class="product-detail-grid" aria-labelledby="product-name">
+      <div class="product-gallery">
+        <div class="product-gallery-stage">
+          <button class="gallery-arrow gallery-previous" type="button" data-gallery-previous aria-label="Previous photo">‹</button>
+          <div class="product-gallery-track" id="product-gallery-track" aria-label="Food photos">
+            <div class="empty-state">Loading food photos…</div>
+          </div>
+          <button class="gallery-arrow gallery-next" type="button" data-gallery-next aria-label="Next photo">›</button>
+        </div>
+        <div class="product-gallery-thumbnails" id="product-gallery-thumbnails" aria-label="Choose food photo"></div>
+      </div>
+
+      <div class="product-information">
+        <div class="product-eyebrow"><span id="product-category-label"></span><span id="product-rating"></span></div>
+        <h1 id="product-name"></h1>
+        <p class="product-description" id="product-description"></p>
+        <div class="product-diet"><span id="product-diet-dot" class="product-diet-dot"></span><span id="product-availability"></span></div>
+        <p class="product-price" id="product-price"></p>
+        <div class="product-actions">
+          <button class="btn btn-primary" id="order-product" type="button">Order</button>
+          <button class="btn btn-secondary" id="add-product" type="button">Add to cart</button>
+        </div>
+
+        <div class="product-service-notes">
+          <span>Freshly prepared</span><span>Campus canteen pickup</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="related-products" aria-labelledby="related-heading">
+      <div class="related-heading">
+        <div><p class="eyebrow">Explore the menu</p><h2 id="related-heading">You may also like</h2></div>
+        <div class="related-controls">
+          <button type="button" data-related-previous aria-label="Scroll related foods left">‹</button>
+          <button type="button" data-related-next aria-label="Scroll related foods right">›</button>
+        </div>
+      </div>
+      <div class="related-product-track" id="related-product-track" aria-label="Related foods"></div>
+    </section>
+
+    <section class="product-story" aria-labelledby="dish-guide-title">
+      <div class="product-story-heading">
+        <p class="eyebrow">The story behind the plate</p>
+        <h2 id="dish-guide-title">About <span id="story-product-name"></span></h2>
+        <p id="product-history"></p>
+      </div>
+      <div class="product-story-grid">
+        <section class="product-detail-section">
+          <h3>How it is made</h3>
+          <p id="product-preparation"></p>
+        </section>
+        <section class="product-detail-section">
+          <h3>Ingredients</h3>
+          <ul class="ingredient-list" id="product-ingredients"></ul>
+        </section>
+        <section class="product-detail-section product-recipe-section" id="product-recipe-section" hidden>
+          <h3>Step-by-step recipe</h3>
+          <ol class="recipe-steps" id="product-recipe-steps"></ol>
+        </section>
+      </div>
+    </section>
+
+    <footer class="product-site-footer">
+      <section class="product-help" aria-labelledby="product-help-title">
+        <div>
+          <h2 id="product-help-title">Need help?</h2>
+          <p>For help with a canteen order, ask the canteen team and have your order number ready.</p>
+          <p id="product-help-details" hidden>Order status and order numbers are available in <a href="./tracking.html">My Orders</a>.</p>
+        </div>
+        <button class="btn btn-secondary" id="product-help-button" type="button" aria-expanded="false" aria-controls="product-help-details">
+          Show help
+        </button>
+      </section>
+      <section class="product-about" aria-labelledby="product-about-title">
+        <p class="eyebrow">About this website</p>
+        <h2 id="product-about-title">trayUP</h2>
+        <p>trayUP helps students explore the campus canteen menu, learn about each dish, and place pickup orders from one simple website.</p>
+      </section>
+    </footer>
+  </main>
+
+  <script src="../shared/config.js"></script>
+  <script src="../shared/storage.js"></script>
+  <script src="../shared/api.js"></script><script src="../shared/catalog.js"></script>
+  <script src="../shared/notifications.js"></script><script src="../shared/image-errors.js"></script>
+  <script src="../shared/components.js?v=static-doodles-v1"></script>
+  
+  <script src="./js/product.js?v=dish-guide-v2"></script>
+</body>
+</html>

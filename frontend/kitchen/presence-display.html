@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache">
+<meta name="referrer" content="no-referrer">
+<title>Canteen check-in code — trayUP</title>
+<link rel="stylesheet" href="../css/global.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/presence.css">
+</head>
+<body class="display-body">
+<main class="display-wrap">
+  <h1>Scan to order</h1>
+  <p class="display-countdown" id="display-countdown" aria-live="off">Connecting…</p>
+  <div class="display-qr" id="display-qr" role="img" aria-label="Canteen check-in code. It changes every few seconds."></div>
+  <p class="display-message" id="display-message" role="alert"></p>
+  <div class="display-controls">
+    <span class="conn-dot" id="connection-indicator" data-state=""></span>
+    <span id="connection-text" style="color:var(--muted);font-size:14px">Starting…</span>
+    <button class="btn btn-secondary" id="revoke-codes" type="button">Revoke live codes</button>
+  </div>
+  <p style="color:var(--muted);font-size:13px;max-width:52ch;line-height:1.5">
+    Staff use only. Keep this screen out of public view as much as you can. Students must be inside the canteen to verify, and each code expires after a few seconds.
+  </p>
+</main>
+<script src="../shared/config.js"></script><script src="../shared/storage.js"></script><script src="../shared/api.js"></script><script src="../shared/notifications.js"></script>
+<script src="./js/presence-display.js"></script>
+</body>
+</html>

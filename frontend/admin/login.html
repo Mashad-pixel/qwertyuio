@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Administrator sign in — trayUP</title>
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/admin-panel.css">
+</head>
+<body class="admin-body">
+  <main class="auth-shell">
+    <section class="auth-card" id="card-login">
+      <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">T</span><span class="brand-name">trayUP</span><span class="brand-tag">Admin</span></a>
+      <form id="login-form" class="stack" novalidate>
+        <div>
+          <h1>Sign in</h1>
+          <p class="lede">Administrator access requires your email, password and an authenticator code.</p>
+        </div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="username" required maxlength="120"></div>
+        <div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required maxlength="128"></div>
+        <div class="field-error" id="login-error" role="alert" hidden></div>
+        <button class="btn btn-primary btn-block" type="submit" id="login-submit">Continue</button>
+      </form>
+    </section>
+
+    <section class="auth-card" id="card-mfa" hidden>
+      <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">T</span><span class="brand-name">trayUP</span><span class="brand-tag">Admin</span></a>
+      <form id="mfa-form" class="stack" novalidate>
+        <div>
+          <h1>Two-factor code</h1>
+          <p class="lede">Enter the 6-digit code from your authenticator app.</p>
+        </div>
+        <div class="field"><label for="mfa-code">Code</label><input id="mfa-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9 ]{6,8}" maxlength="8" required></div>
+        <div class="field-error" id="mfa-error" role="alert" hidden></div>
+        <button class="btn btn-primary btn-block" type="submit">Verify and sign in</button>
+        <div class="auth-links"><a href="login.html">Start over</a></div>
+      </form>
+    </section>
+
+    <section class="auth-card" id="card-setup" hidden>
+      <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">T</span><span class="brand-name">trayUP</span><span class="brand-tag">Admin</span></a>
+      <form id="setup-form" class="stack" novalidate>
+        <div>
+          <h1>Set up two-factor</h1>
+          <p class="lede">Administrator accounts must use an authenticator app. Add this key to your app, then enter the code it shows.</p>
+        </div>
+        <div class="field"><span class="field-hint">Setup key</span><div class="secret-box" id="setup-secret"></div></div>
+        <p><a id="setup-link" href="#" hidden>Open in an authenticator app</a></p>
+        <div class="field"><label for="setup-code">Code from your app</label><input id="setup-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9 ]{6,8}" maxlength="8" required></div>
+        <div class="field-error" id="setup-error" role="alert" hidden></div>
+        <button class="btn btn-primary btn-block" type="submit">Turn on two-factor</button>
+      </form>
+    </section>
+  </main>
+  <script src="../shared/config.js"></script>
+  <script src="../shared/api.js"></script>
+  <script src="../shared/auth.js"></script>
+  <script src="../shared/admin-panel.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+</html>

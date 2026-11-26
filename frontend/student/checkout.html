@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<title>Checkout — trayUP</title><link rel="stylesheet" href="../css/global.css?v=premium-static-doodle-v3"><link rel="stylesheet" href="../css/components.css?v=scattered-doodle-v1"><link rel="stylesheet" href="../css/student.css?v=checkout-professional-v2"><link rel="stylesheet" href="../css/responsive.css?v=scattered-doodle-v1"><link rel="stylesheet" href="../css/admin.css"><script src="https://checkout.razorpay.com/v1/checkout.js"></script></head>
+<body class="student-page">
+<div id="app-header"></div>
+<main class="container" style="max-width:900px;padding:36px 0">
+<h1 style="font-family:var(--serif);font-size:42px;font-weight:400;margin-bottom:20px">Checkout</h1>
+<div class="checkout-layout">
+<form id="checkout-form" class="card" style="padding:24px" novalidate>
+<h2 style="font-size:18px;margin-bottom:16px">Student details</h2>
+<div class="field"><label for="name">Name</label><input id="name" name="name" required autocomplete="name"></div>
+<div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" required autocomplete="tel" aria-describedby="phone-error"><small id="phone-error" class="field-error" role="alert" hidden>Number is invalid</small></div>
+<div class="field"><label for="instructions">Special instructions</label><textarea id="instructions" name="instructions" rows="3" placeholder="Less spicy, no onion…"></textarea></div>
+<fieldset class="payment-method">
+<legend>Payment option</legend>
+<div class="payment-options">
+  <label class="payment-option"><input type="radio" name="payment_method" value="googlepay" checked required><span class="payment-logo gpay">G</span><span><strong>Google Pay</strong><small>UPI payment</small></span></label>
+  <label class="payment-option"><input type="radio" name="payment_method" value="phonepe"><span class="payment-logo phonepe">पे</span><span><strong>PhonePe</strong><small>UPI payment</small></span></label>
+  <label class="payment-option"><input type="radio" name="payment_method" value="razorpay"><span class="payment-logo razorpay">R</span><span><strong>Razorpay</strong><small>Cards · UPI · Netbanking</small></span></label>
+  <label class="payment-option"><input type="radio" name="payment_method" value="cash"><span class="payment-logo cash">₹</span><span><strong>Cash</strong><small>Pay at counter</small></span></label>
+</div>
+</fieldset>
+<button class="btn btn-primary" type="submit" style="width:100%;margin-top:10px">Place order</button>
+</form>
+<aside class="card checkout-summary" style="padding:20px;height:max-content"><h2 style="font-size:16px">Order summary</h2><div id="summary" style="margin:16px 0"></div><div class="cart-total"><span>Total</span><strong id="checkout-total">₹0</strong></div><p id="total-note" style="color:var(--muted);font-size:13px;margin-top:8px"></p><h3 class="checkout-food-heading">Your food</h3><div id="summary-food-images" class="checkout-food-images" aria-label="Photos of foods in your order"></div></aside>
+</div></main>
+<script src="../shared/config.js"></script><script src="../shared/storage.js"></script><script src="../shared/api.js"></script><script src="../shared/notifications.js"></script><script src="../shared/image-errors.js"></script><script src="../shared/components.js?v=static-doodles-v1"></script><script src="../shared/validation.js"></script>
+<script src="./js/payment.js?v=razorpay-verify-v2"></script>
+<script src="./js/checkout.js?v=server-total-razorpay-v1"></script>
+</body></html>

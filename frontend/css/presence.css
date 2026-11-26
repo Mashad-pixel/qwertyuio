@@ -1,0 +1,82 @@
+/* Presence verification, login and canteen display. Uses the shared variables from variables.css. */
+
+.presence-page { max-width: 760px; padding: 32px 0 48px; }
+.presence-page h1 { font-family: var(--serif); font-size: 36px; font-weight: 400; margin-bottom: 10px; }
+.presence-lede { color: var(--muted); margin-bottom: 22px; line-height: 1.5; }
+
+.presence-card { padding: 22px; margin-bottom: 18px; }
+.presence-card h2 { font-size: 18px; margin-bottom: 8px; }
+
+.presence-status-bar {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 13px; color: var(--muted); margin-bottom: 16px;
+}
+.conn-dot { width: 10px; height: 10px; border-radius: 50%; background: #b5b8b1; display: inline-block; }
+.conn-dot[data-state="online"] { background: #2f8f5b; }
+.conn-dot[data-state="offline"] { background: var(--danger); }
+
+.presence-steps { list-style: none; padding: 0; margin: 0 0 18px; display: grid; gap: 10px; }
+.presence-steps li {
+  display: flex; flex-direction: column; gap: 2px;
+  padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--white);
+}
+.presence-steps li span { color: var(--muted); font-size: 13px; }
+
+.scanner-area { display: grid; gap: 12px; justify-items: start; margin-bottom: 16px; }
+.scanner-area video {
+  width: 100%; max-width: 420px; border-radius: var(--radius);
+  background: #000; aspect-ratio: 1 / 1; object-fit: cover;
+}
+.scanner-area p { color: var(--muted); font-size: 14px; line-height: 1.45; }
+
+.presence-status {
+  min-height: 1.5em; margin-top: 12px; font-size: 14px; line-height: 1.45;
+}
+.presence-status[data-tone="ok"] { color: #1f6b43; }
+.presence-status[data-tone="warn"] { color: #975821; }
+.presence-status[data-tone="error"] { color: var(--danger); }
+
+.presence-banner {
+  border-radius: var(--radius); padding: 14px 16px; margin-bottom: 16px;
+  background: #fff8d6; border: 1px solid #ecd978; color: #5b4a00; font-size: 14px; line-height: 1.45;
+}
+.presence-banner[data-tone="ok"] { background: #e7f5ec; border-color: #a9d8ba; color: #1f6b43; }
+.presence-banner[data-tone="error"] { background: #fdebe7; border-color: #f0b8ab; color: var(--danger); }
+.presence-banner a { color: inherit; font-weight: 600; }
+
+.countdown {
+  font-family: var(--sans); font-size: 40px; font-weight: 700;
+  font-variant-numeric: tabular-nums; letter-spacing: 1px; margin: 6px 0 14px;
+}
+.session-panel { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 16px; }
+
+.privacy-notice { padding: 20px 22px; font-size: 14px; line-height: 1.55; color: #3f423e; }
+.privacy-notice ul { padding-left: 18px; margin: 8px 0 0; display: grid; gap: 6px; }
+
+/* Auth page */
+.auth-tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.auth-tabs button {
+  flex: 1; padding: 10px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--white); cursor: pointer; font: inherit;
+}
+.auth-tabs button[aria-selected="true"] { background: var(--green); color: var(--white); border-color: var(--green); }
+
+/* Canteen display (staff screen) */
+.display-body { background: transparent; min-height: 100vh; margin: 0; }
+.display-wrap {
+  min-height: 100vh; display: flex; flex-direction: column; align-items: center;
+  justify-content: center; gap: 18px; padding: 24px; text-align: center;
+  padding-top: calc(24px + env(safe-area-inset-top, 0px));
+  padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+}
+.display-wrap h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(28px, 4vw, 44px); margin: 0; }
+.display-qr {
+  background: var(--white); padding: 18px; border-radius: 18px;
+  box-shadow: var(--shadow); width: min(80vmin, 560px); aspect-ratio: 1 / 1;
+  display: flex; align-items: center; justify-content: center;
+}
+.display-qr svg { width: 100%; height: auto; display: block; }
+.display-countdown { font-size: 20px; font-variant-numeric: tabular-nums; color: var(--muted); }
+.display-message { min-height: 1.4em; color: var(--danger); }
+.display-controls { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }

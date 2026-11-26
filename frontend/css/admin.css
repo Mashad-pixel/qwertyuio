@@ -1,0 +1,82 @@
+.admin-shell { min-height:100vh; background:transparent; }
+.admin-layout { display:grid; grid-template-columns:220px 1fr; min-height:100vh; }
+.admin-sidebar {
+  background:#173f35;
+  color:#fff;
+  padding:22px 16px;
+}
+.admin-sidebar .brand { color:#fff; margin:4px 8px 30px; }
+.admin-sidebar a {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-height:42px;
+  padding:0 12px;
+  border-radius:7px;
+  color:#dbe7e1;
+  font-size:13px;
+  font-weight:700;
+  margin:3px 0;
+}
+.admin-sidebar a.active { background:#285c4d; color:#fff; }
+.admin-main { min-width:0; }
+.admin-header {
+  height:68px;
+  background:#fff;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 28px;
+}
+.admin-content { padding:28px; }
+.admin-title { font-family:"DM Serif Display",var(--serif); font-size:40px; font-weight:400; }
+.admin-stats {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+  margin:22px 0;
+}
+.admin-card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:18px; }
+.admin-card .value { font-size:30px; font-weight:800; margin-top:8px; }
+.table-card { overflow:hidden; }
+.data-table { width:100%; border-collapse:collapse; background:#fff; }
+.data-table th { text-align:left; background:#f1f3ef; color:#666; font-size:11px; text-transform:uppercase; letter-spacing:.7px; }
+.data-table th,.data-table td { padding:14px 16px; border-bottom:1px solid #eee; }
+.login-shell {
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+  background:transparent;
+}
+.login-card {
+  width:min(420px,calc(100% - 32px));
+  background:#fff;
+  border-radius:14px;
+  padding:34px;
+  box-shadow:var(--shadow);
+}
+.login-card h1 { font-family:"DM Serif Display",var(--serif); font-size:38px; font-weight:400; margin:16px 0 24px; }
+.field { display:grid; gap:7px; margin:12px 0; }
+.field label { font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.5px; }
+.field input,.field textarea,.field select {
+  min-height:44px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  padding:10px 12px;
+  background:#fff;
+  outline:none;
+}
+.field input:focus,.field textarea:focus { border-color:var(--green); }
+.login-card .btn { width:100%; margin-top:12px; }
+
+@media (max-width: 900px) {
+  .admin-layout { grid-template-columns: 76px 1fr; }
+  .admin-sidebar { padding-inline: 8px; }
+  .admin-sidebar .brand span:last-child { display:none; }
+  .admin-sidebar a { justify-content:center; font-size:0; }
+  .admin-stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .admin-content { padding:18px; }
+  .data-table { min-width:720px; }
+  .table-card { overflow-x:auto; }
+}

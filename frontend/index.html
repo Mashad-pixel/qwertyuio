@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>TrayUP — College Canteen</title>
+  <link rel="stylesheet" href="./css/global.css?v=genz-home-v2">
+  <link rel="stylesheet" href="./css/components.css?v=genz-home-v1">
+  <link rel="stylesheet" href="./css/student.css?v=genz-home-v1">
+  <link rel="stylesheet" href="./css/responsive.css?v=genz-home-v2">
+</head>
+<body class="student-page home-page">
+  <div id="app-header"></div>
+  <main>
+    <section class="menu-hero" aria-label="Popular dishes" aria-roledescription="carousel">
+      <div class="hero-viewport">
+        <div class="hero-track" id="hero-track" aria-live="off"></div>
+      </div>
+      <div class="hero-controls" aria-label="Popular dish slides">
+        <button type="button" id="hero-previous" aria-label="Show previous popular dish">&lt;</button>
+        <span id="hero-slide-count" aria-hidden="true"></span>
+        <button type="button" id="hero-next" aria-label="Show next popular dish">&gt;</button>
+      </div>
+    </section>
+
+    <section class="discovery-wrap" aria-label="Discover the menu">
+      <div class="discovery-heading">
+        <div>
+          <span class="discovery-kicker">GOOD BREAKS START HERE</span>
+          <h2>What are you craving?</h2>
+        </div>
+        <a href="#popular" class="discovery-link">See the full menu <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="category-rail" id="category-rail" aria-label="Browse food categories"></div>
+    </section>
+
+    <section class="mood-wrap" aria-labelledby="mood-heading">
+      <div class="mood-copy">
+        <span class="discovery-kicker">GO WITH YOUR GUT</span>
+        <h2 id="mood-heading">Pick a mood.<br>Find your meal.</h2>
+        <p>One tap to the kind of food you’re feeling.</p>
+        <button type="button" class="clear-mood" id="clear-mood" hidden>Clear mood ×</button>
+      </div>
+      <div class="mood-choices" id="mood-choices">
+        <button type="button" class="mood-choice mood-spicy" data-mood="spicy"><span aria-hidden="true">01</span>Bring the heat <b aria-hidden="true">↗</b></button>
+        <button type="button" class="mood-choice mood-comfort" data-mood="comfort"><span aria-hidden="true">02</span>Comfort mode <b aria-hidden="true">↗</b></button>
+        <button type="button" class="mood-choice mood-quick" data-mood="quick"><span aria-hidden="true">03</span>Quick bite <b aria-hidden="true">↗</b></button>
+        <button type="button" class="mood-choice mood-sweet" data-mood="sweet"><span aria-hidden="true">04</span>Sweet tooth <b aria-hidden="true">↗</b></button>
+        <button type="button" class="mood-choice mood-fresh" data-mood="refreshing"><span aria-hidden="true">05</span>Cool me down <b aria-hidden="true">↗</b></button>
+      </div>
+    </section>
+
+    <section class="roulette-wrap" aria-labelledby="roulette-heading">
+      <div class="roulette-copy">
+        <span class="discovery-kicker">DECISIONS, DECISIONS</span>
+        <h2 id="roulette-heading">Can't pick?<br><em>We'll pick.</em></h2>
+        <p>A little nudge from the menu. Always an actual available dish.</p>
+        <button type="button" class="surprise-button" id="surprise-me">Pick my meal <span aria-hidden="true">✳</span></button>
+      </div>
+      <div class="roulette-result" id="roulette-result" aria-live="polite">
+        <div class="roulette-placeholder" aria-hidden="true"><span>?</span></div>
+        <p>Your next favourite could be right here.</p>
+      </div>
+    </section>
+
+    <section class="menu-catalog" id="popular">
+      <div class="popular-periods" id="popular-periods" aria-label="Popular foods time period" hidden>
+        <span>Top ordered</span>
+        <button type="button" class="active" data-period="day">Today</button>
+        <button type="button" data-period="week">This week</button>
+        <button type="button" data-period="month">This month</button>
+      </div>
+      <div class="menu-filters">
+        <select id="availability-filter" aria-label="Filter by availability">
+          <option value="all">All availability</option>
+          <option value="available">Available now</option>
+        </select>
+        <select id="diet-filter" aria-label="Filter by dietary preference">
+          <option value="all">All diets</option>
+          <option value="veg">Veg</option>
+          <option value="nonveg">Non-veg</option>
+          <option value="egg">Egg</option>
+        </select>
+        <button class="btn btn-secondary" id="clear-search" type="button">Clear search</button>
+      </div>
+      <div class="menu-heading">
+        <h2>Popular today</h2>
+        <p>Freshly prepared at the campus canteen</p>
+      </div>
+      <div class="food-grid" id="food-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart">
+    <div class="cart-head">
+      <strong>Your order</strong>
+      <button class="icon-btn" id="close-cart" type="button" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-foot">
+      <div class="cart-total"><span>Subtotal</span><strong id="cart-total">₹0</strong></div>
+      <a class="btn btn-primary" href="./student/checkout.html">Checkout</a>
+    </div>
+  </aside>
+
+  <nav class="mobile-dock" aria-label="Quick navigation">
+    <a href="#popular"><span aria-hidden="true">⌂</span>Browse</a>
+    <button type="button" data-mobile-cart><span aria-hidden="true">＋</span>Tray <b id="mobile-cart-count">0</b></button>
+    <a href="./student/tracking.html"><span aria-hidden="true">◎</span>Orders</a>
+  </nav>
+
+  <script src="./shared/config.js"></script>
+  <script src="./shared/storage.js"></script>
+  <script src="./shared/api.js"></script><script src="./shared/catalog.js"></script>
+  <script src="./shared/notifications.js"></script>
+  <script src="./shared/components.js?v=genz-home-v2"></script>
+  
+  <script src="./student/js/menu.js?v=genz-home-v1"></script>
+</body>
+</html>

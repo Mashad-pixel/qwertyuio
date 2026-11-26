@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache">
+<meta name="referrer" content="no-referrer">
+<title>Verify you're at the canteen — trayUP</title>
+<link rel="stylesheet" href="../css/global.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/student.css"><link rel="stylesheet" href="../css/responsive.css"><link rel="stylesheet" href="../css/presence.css">
+</head>
+<body class="student-page">
+<div id="app-header"></div>
+<main class="container presence-page">
+  <h1>Verify you're at the canteen</h1>
+  <p class="presence-lede">Ordering is open to students who are physically at the canteen. Scan the code on the canteen screen, then confirm your location.</p>
+
+  <div class="presence-status-bar" role="status" aria-live="polite">
+    <span class="conn-dot" id="connection-indicator" data-state=""></span>
+    <span id="connection-text">Checking connection…</span>
+  </div>
+
+  <section class="card presence-card" id="login-required" hidden>
+    <h2>Log in to continue</h2>
+    <p id="account-message">Students need an account to order.</p>
+    <p style="margin-top:12px"><a class="btn btn-primary" href="./login.html?next=verify.html">Log in or create an account</a></p>
+    <p style="color:var(--muted);font-size:13px;margin-top:10px">After you log in, scan the canteen code again. Codes change every few seconds.</p>
+  </section>
+
+  <section class="card presence-card" id="main-panel" hidden>
+    <ol class="presence-steps">
+      <li><strong>1. Scan the canteen code</strong><span id="scan-state">No code yet. Scan the code on the screen.</span></li>
+      <li><strong>2. Confirm your location</strong><span>Your browser asks for permission only when you tap the button below.</span></li>
+      <li><strong>3. Place your order</strong><span>You have three minutes after verifying, and one order per verification.</span></li>
+    </ol>
+
+    <div class="scanner-area">
+      <video id="scanner-video" playsinline muted hidden></video>
+      <p>Point your phone camera at the code on the canteen screen. If your browser can't scan codes, open your phone's camera app and scan it there. The page will open with the code filled in.</p>
+      <button class="btn btn-secondary" id="start-scan" type="button">Scan code with camera</button>
+    </div>
+
+    <button class="btn btn-primary" id="verify-button" type="button" disabled style="width:100%">Verify my location</button>
+    <p class="presence-status" id="verify-status" role="alert" aria-live="assertive"></p>
+
+    <section class="session-panel" id="session-panel" hidden>
+      <p>You're verified. Place your order before the timer runs out:</p>
+      <p class="countdown" id="session-countdown" aria-live="off">03:00</p>
+      <a class="btn btn-primary" href="./checkout.html" style="width:100%;text-align:center">Continue to checkout</a>
+    </section>
+  </section>
+
+  <section class="card privacy-notice">
+    <h2>Your location and privacy</h2>
+    <ul>
+      <li>Your browser asks for location permission only when you tap <strong>Verify my location</strong>. Nothing is read in the background.</li>
+      <li>trayUP reads your location once to check that you're within the canteen area. The coordinates are used for that check and then discarded.</li>
+      <li>We keep only the rounded distance from the canteen and your GPS accuracy, for an audit trail. These records are deleted after a limited retention period.</li>
+      <li>Codes change every few seconds, and each verification allows one order for three minutes. This makes a photographed code much less useful. No location check is perfect, so staff can still review orders.</li>
+      <li>We don't use your IP address to decide where you are.</li>
+    </ul>
+  </section>
+</main>
+<script src="../shared/config.js"></script><script src="../shared/storage.js"></script><script src="../shared/api.js"></script><script src="../shared/notifications.js"></script><script src="../shared/components.js"></script><script src="../shared/validation.js"></script>
+<script src="./js/verify.js"></script>
+</body>
+</html>

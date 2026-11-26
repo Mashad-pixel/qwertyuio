@@ -1,0 +1,1 @@
+window.location.replace("./student/login.html" + window.location.search + window.location.hash);
