@@ -1,0 +1,11 @@
+{
+  "name": "trayup-frontend-tests",
+  "private": true,
+  "description": "Browser-behaviour tests for the staff and student pages, run in jsdom with a scripted API.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3"
+  }
+}
