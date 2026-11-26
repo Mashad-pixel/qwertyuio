@@ -1,0 +1,946 @@
+[
+  {
+    "name": "Masala Dosa",
+    "description": "Crisp dosa filled with spiced potato masala.",
+    "category": "Breakfast",
+    "price_paise": 6000,
+    "image_url": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Rice and lentils",
+      "Potato",
+      "Onion",
+      "Mustard seeds",
+      "Turmeric"
+    ],
+    "preparation": "A gently fermented rice-and-lentil batter is spread into a thin circle on a hot griddle and cooked until crisp and golden. A savory potato filling is cooked separately with onion and spices, then tucked inside the dosa before serving.",
+    "recipe_steps": [
+      "Cook the potato masala with onion, mustard seeds and turmeric until the potatoes are soft and well seasoned.",
+      "Pour a ladle of fermented batter onto a hot, lightly oiled griddle and spread it into a thin circle.",
+      "Cook until crisp and golden, spoon the potato filling into the center, fold and serve warm."
+    ]
+  },
+  {
+    "name": "Idli Sambar",
+    "description": "Soft steamed idlis with warm lentil sambar.",
+    "category": "Breakfast",
+    "price_paise": 4000,
+    "image_url": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Rice",
+      "Urad dal",
+      "Toor dal",
+      "Tomato",
+      "Mixed vegetables"
+    ],
+    "preparation": "A fermented rice-and-urad-dal batter is poured into idli molds and steamed until the cakes are soft and fluffy. Toor dal, vegetables, tamarind and spices are simmered together to make the tangy sambar served alongside.",
+    "recipe_steps": [
+      "Blend soaked rice and urad dal into a smooth batter, mix and leave it to ferment until light and airy.",
+      "Pour the batter into greased idli molds and steam until the cakes are fluffy and cooked through.",
+      "Simmer cooked lentils with vegetables, tamarind and spices to make sambar, then serve it hot with the idlis."
+    ]
+  },
+  {
+    "name": "Poori Bhaji",
+    "description": "Fluffy pooris served with potato bhaji.",
+    "category": "Breakfast",
+    "price_paise": 5500,
+    "image_url": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Wheat flour",
+      "Potato",
+      "Onion",
+      "Turmeric",
+      "Cooking oil"
+    ],
+    "preparation": "Soft wheat dough is divided and rolled into small rounds, then fried until each poori puffs and turns golden. Potatoes are simmered with onion and spices into a tender bhaji that is served warm with the bread.",
+    "recipe_steps": [
+      "Knead wheat flour with water into a smooth dough, divide it into balls and roll each into a small round.",
+      "Cook potatoes with onion and turmeric until tender, then lightly mash and season to make the bhaji.",
+      "Fry each dough round until it puffs and turns golden, and serve immediately with the warm potato bhaji."
+    ]
+  },
+  {
+    "name": "Vegetable Upma",
+    "description": "Savory semolina cooked with vegetables.",
+    "category": "Breakfast",
+    "price_paise": 3500,
+    "image_url": "https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Semolina",
+      "Carrot",
+      "Green peas",
+      "Curry leaves",
+      "Mustard seeds"
+    ],
+    "preparation": "Semolina is dry-roasted until fragrant, while mustard seeds, curry leaves and vegetables are sautéed separately. Hot water is stirred in with the semolina and cooked until the upma is tender, fluffy and savory.",
+    "recipe_steps": [
+      "Dry-roast the semolina in a pan until fragrant, then set it aside.",
+      "Temper mustard seeds and curry leaves, add chopped vegetables and cook until they begin to soften.",
+      "Stir in hot water and the semolina gradually; cook, stirring, until fluffy and serve warm."
+    ]
+  },
+  {
+    "name": "Paneer Paratha",
+    "description": "Whole-wheat paratha stuffed with seasoned paneer.",
+    "category": "Breakfast",
+    "price_paise": 7000,
+    "image_url": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Whole-wheat flour",
+      "Paneer",
+      "Green chili",
+      "Coriander",
+      "Garam masala"
+    ],
+    "preparation": "Crumbled paneer is seasoned with herbs and spices, then wrapped inside soft whole-wheat dough. The stuffed paratha is rolled gently and toasted on a hot griddle with ghee until both sides are golden.",
+    "recipe_steps": [
+      "Mix crumbled paneer with green chili, coriander and garam masala for the filling.",
+      "Place the filling inside a small round of whole-wheat dough, seal it and roll gently into a paratha.",
+      "Toast on a hot griddle with ghee, turning until both sides are golden and the center is hot."
+    ]
+  },
+  {
+    "name": "Plain Dosa",
+    "description": "Thin, crisp golden rice and lentil dosa.",
+    "category": "Breakfast",
+    "price_paise": 4500,
+    "image_url": "https://images.unsplash.com/photo-1694849789325-914b71ab4075?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Rice",
+      "Urad dal",
+      "Fenugreek seeds",
+      "Salt",
+      "Cooking oil"
+    ],
+    "preparation": "Rice-and-lentil batter is fermented to develop its light tang, then spread thinly over a lightly oiled hot griddle. The dosa cooks until its edges lift and the surface becomes crisp and golden.",
+    "recipe_steps": [
+      "Blend soaked rice and urad dal into a smooth batter, season lightly and leave it to ferment.",
+      "Spread a ladle of batter thinly over a lightly oiled hot griddle.",
+      "Cook until the edges are crisp and golden, then fold and serve hot."
+    ]
+  },
+  {
+    "name": "Onion Uttapam",
+    "description": "Soft savory pancake topped with onions.",
+    "category": "Breakfast",
+    "price_paise": 5500,
+    "image_url": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Rice and lentil batter",
+      "Onion",
+      "Green chili",
+      "Coriander",
+      "Cooking oil"
+    ],
+    "preparation": "Fermented dosa batter is spread into a thick savory pancake and topped with onion, green chili and coriander. It is cooked slowly on a griddle so the center stays soft while the bottom turns lightly browned.",
+    "recipe_steps": [
+      "Spoon fermented batter onto a warm, lightly oiled griddle and shape it into a thick round.",
+      "Scatter onion, green chili and coriander over the top, pressing them gently into the batter.",
+      "Cook covered on low heat until set, flip briefly to brown the other side, then serve."
+    ]
+  },
+  {
+    "name": "Pongal",
+    "description": "Comforting rice and moong dal porridge.",
+    "category": "Breakfast",
+    "price_paise": 5000,
+    "image_url": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Rice",
+      "Moong dal",
+      "Black pepper",
+      "Cumin",
+      "Ghee"
+    ],
+    "preparation": "Rice and moong dal are rinsed and simmered together until soft and creamy. A finishing tempering of ghee, cumin and black pepper adds the warm, savory aroma associated with pongal.",
+    "recipe_steps": [
+      "Rinse the rice and moong dal, then simmer them together with water until very soft.",
+      "Warm ghee in a small pan and toast cumin and black pepper until fragrant.",
+      "Stir the tempering into the rice and dal, adjust the consistency and serve hot."
+    ]
+  },
+  {
+    "name": "Aloo Paratha",
+    "description": "Ghee-finished flatbread with spiced potato.",
+    "category": "Breakfast",
+    "price_paise": 6000,
+    "image_url": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Whole-wheat flour",
+      "Potato",
+      "Cumin",
+      "Coriander",
+      "Ghee"
+    ],
+    "preparation": "Mashed potato is seasoned with cumin and coriander, sealed inside a round of whole-wheat dough and rolled carefully. The paratha is toasted on a hot griddle with ghee until its surface is crisp and golden.",
+    "recipe_steps": [
+      "Mash cooked potatoes with cumin and coriander to make a smooth, evenly seasoned filling.",
+      "Enclose a portion of filling in whole-wheat dough, seal it and roll carefully into a flat round.",
+      "Cook on a hot griddle with ghee, turning until both sides are golden and the filling is hot."
+    ]
+  },
+  {
+    "name": "Bread Omelette",
+    "description": "Golden omelette layered in buttered toast.",
+    "category": "Breakfast",
+    "price_paise": 4500,
+    "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&q=82",
+    "is_veg": false,
+    "is_available": true,
+    "ingredients": [
+      "Egg",
+      "Bread",
+      "Onion",
+      "Green chili",
+      "Butter"
+    ],
+    "preparation": "Eggs are whisked with onion, green chili and seasoning, then cooked in a pan until just set into a fluffy omelette. Bread is added and toasted with butter so the outside turns golden while the egg stays tender.",
+    "recipe_steps": [
+      "Whisk eggs with chopped onion, green chili and seasoning until combined.",
+      "Pour into a buttered pan and cook until the omelette is nearly set; place bread against it so it picks up the egg.",
+      "Fold or layer the bread with the omelette and toast in butter until golden and cooked through."
+    ]
+  },
+  {
+    "name": "South Indian Veg Thali",
+    "description": "Rice, sambar, vegetables, rasam and curd.",
+    "category": "Lunch",
+    "price_paise": 12000,
+    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Rice",
+      "Sambar",
+      "Rasam",
+      "Seasonal vegetables",
+      "Curd"
+    ],
+    "preparation": "Rice, sambar, rasam and seasonal vegetable dishes are cooked separately to keep their flavors distinct. They are arranged together with curd as a varied, balanced South Indian-style thali.",
+    "recipe_steps": [
+      "Cook rice until tender and prepare the sambar and rasam in separate pots.",
+      "Cook the seasonal vegetables with their own seasoning and keep the curd chilled.",
+      "Arrange rice, lentils, vegetables, rasam and curd together on a plate and serve warm."
+    ]
+  },
+  {
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice cooked with tender chicken.",
+    "category": "Lunch",
+    "price_paise": 15000,
+    "image_url": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=900&q=82",
+    "is_veg": false,
+    "is_available": true,
+    "ingredients": [
+      "Basmati rice",
+      "Chicken",
+      "Yogurt",
+      "Onion",
+      "Ginger and garlic"
+    ],
+    "preparation": "Chicken is marinated with yogurt, ginger, garlic and spices while basmati rice is par-cooked with whole aromatics. The two are layered and sealed to steam slowly, allowing the rice to absorb the chicken juices and fragrance.",
+    "recipe_steps": [
+      "Marinate chicken with yogurt, ginger, garlic and spices; rinse and par-cook basmati rice with whole spices.",
+      "Layer the chicken and rice in a heavy pot, adding aromatics between the layers, then cover tightly.",
+      "Cook over low heat until the chicken is fully cooked and the rice is tender; rest briefly before serving."
+    ]
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "description": "Paneer in a rich tomato, butter and cream gravy.",
+    "category": "Lunch",
+    "price_paise": 13000,
+    "image_url": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Paneer",
+      "Tomato",
+      "Butter",
+      "Cream",
+      "Indian spices"
+    ],
+    "preparation": "Paneer cubes are gently simmered in a smooth tomato gravy seasoned with warming Indian spices. Butter and cream are stirred in near the end to create a rich, silky sauce without breaking the paneer.",
+    "recipe_steps": [
+      "Cook tomatoes with onion and spices until soft, then blend into a smooth gravy.",
+      "Simmer the gravy with butter and a little water, then add paneer and cook gently until heated through.",
+      "Stir in cream, adjust the seasoning and serve the curry hot."
+    ]
+  },
+  {
+    "name": "Veg Pulao",
+    "description": "Fragrant rice with seasonal vegetables.",
+    "category": "Lunch",
+    "price_paise": 9000,
+    "image_url": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Basmati rice",
+      "Carrot",
+      "Green peas",
+      "Whole spices",
+      "Ghee"
+    ],
+    "preparation": "Seasonal vegetables and whole spices are sautéed to release their aroma before basmati rice is added. The rice cooks covered with measured water until fluffy and infused with the vegetable stock and spices.",
+    "recipe_steps": [
+      "Rinse basmati rice and chop the carrot and green peas; drain the rice well.",
+      "Sauté whole spices and vegetables in ghee, then stir in the rice until lightly coated.",
+      "Add water and salt, cover and cook on low heat until fluffy; rest before serving."
+    ]
+  },
+  {
+    "name": "Dal Tadka Rice",
+    "description": "Yellow dal with tempered spices and steamed rice.",
+    "category": "Lunch",
+    "price_paise": 10000,
+    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Toor dal",
+      "Rice",
+      "Tomato",
+      "Cumin",
+      "Ghee"
+    ],
+    "preparation": "Toor dal is rinsed and simmered until soft, then lightly mashed to thicken the curry. A hot tempering of cumin and spices is poured over the dal, which is served with freshly steamed rice.",
+    "recipe_steps": [
+      "Rinse toor dal and simmer it with water until completely soft, then lightly mash.",
+      "Prepare a hot tempering with ghee, cumin and spices, and pour it over the cooked dal.",
+      "Stir, adjust the consistency and seasoning, and serve with freshly steamed rice."
+    ]
+  },
+  {
+    "name": "Egg Fried Rice",
+    "description": "Wok-tossed rice with egg and vegetables.",
+    "category": "Lunch",
+    "price_paise": 10000,
+    "image_url": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=900&q=82",
+    "is_veg": false,
+    "is_available": true,
+    "ingredients": [
+      "Rice",
+      "Egg",
+      "Carrot",
+      "Spring onion",
+      "Soy sauce"
+    ],
+    "preparation": "Egg is scrambled with carrot and spring onion in a hot wok, then combined with cooked rice and savory seasoning. The mixture is tossed quickly over high heat so the grains stay separate and lightly smoky.",
+    "recipe_steps": [
+      "Use cooled cooked rice and separate the grains; beat the egg and chop the vegetables.",
+      "Scramble the egg in a hot wok, add carrot and spring onion, and stir-fry briefly.",
+      "Add rice and soy sauce, toss over high heat until hot throughout, and serve."
+    ]
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "description": "Chicken, rice and vegetables tossed over high heat.",
+    "category": "Lunch",
+    "price_paise": 13000,
+    "image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=82",
+    "is_veg": false,
+    "is_available": true,
+    "ingredients": [
+      "Rice",
+      "Chicken",
+      "Carrot",
+      "Spring onion",
+      "Soy sauce"
+    ],
+    "preparation": "Chicken is cut into small pieces and stir-fried until fully cooked, then set aside while vegetables are tossed over high heat. Cooked rice, chicken and seasoning are returned to the wok and mixed until hot throughout.",
+    "recipe_steps": [
+      "Cut the chicken into small pieces and stir-fry until fully cooked; set it aside.",
+      "Cook carrot and spring onion quickly in a hot wok, then add cooled cooked rice.",
+      "Return the chicken, season with soy sauce and toss until everything is hot throughout."
+    ]
+  },
+  {
+    "name": "Veg Noodles",
+    "description": "Noodles tossed with crunchy vegetables and sauces.",
+    "category": "Lunch",
+    "price_paise": 9000,
+    "image_url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Noodles",
+      "Cabbage",
+      "Carrot",
+      "Bell pepper",
+      "Soy sauce"
+    ],
+    "preparation": "Noodles are boiled until just tender, drained and kept ready while the vegetables are sliced. They are tossed in a hot wok with cabbage, carrot, pepper and sauce so they stay springy rather than soft.",
+    "recipe_steps": [
+      "Boil the noodles until just tender, drain and toss with a little oil to keep them separate.",
+      "Stir-fry cabbage, carrot and bell pepper with garlic in a very hot wok.",
+      "Add noodles and soy sauce, toss until heated through and serve while springy."
+    ]
+  },
+  {
+    "name": "Chole Bhature",
+    "description": "Spiced chickpeas with soft, fluffy bhature.",
+    "category": "Lunch",
+    "price_paise": 9000,
+    "image_url": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Chickpeas",
+      "Wheat flour",
+      "Yogurt",
+      "Tomato",
+      "Chole masala"
+    ],
+    "preparation": "Chickpeas are soaked and cooked until tender, then simmered in an onion-tomato gravy with chole spices. Bhature dough is rolled and fried until puffed, and the hot bread is served alongside the thick curry.",
+    "recipe_steps": [
+      "Soak chickpeas, then pressure-cook or simmer them until tender.",
+      "Cook tomato with onion and chole masala, add the chickpeas and simmer until the curry thickens.",
+      "Roll bhature dough into rounds and fry until puffed; serve hot with the chickpea curry."
+    ]
+  },
+  {
+    "name": "Rajma Rice",
+    "description": "Homestyle kidney beans curry with steamed rice.",
+    "category": "Lunch",
+    "price_paise": 10000,
+    "image_url": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Kidney beans",
+      "Rice",
+      "Tomato",
+      "Onion",
+      "Garam masala"
+    ],
+    "preparation": "Kidney beans are soaked and cooked until creamy inside, then added to an onion-tomato masala with garam masala. The curry simmers until its sauce thickens and is served with steamed rice.",
+    "recipe_steps": [
+      "Soak kidney beans and cook them until soft, then drain while keeping a little cooking liquid.",
+      "Cook onion and tomato with garam masala, add the beans and simmer until the gravy thickens.",
+      "Adjust seasoning and serve the rajma hot with steamed rice."
+    ]
+  },
+  {
+    "name": "Roti Combo",
+    "description": "Fresh rotis with seasonal curry and salad.",
+    "category": "Lunch",
+    "price_paise": 11000,
+    "image_url": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Whole-wheat flour",
+      "Seasonal vegetables",
+      "Tomato",
+      "Onion",
+      "Indian spices"
+    ],
+    "preparation": "Whole-wheat flour is kneaded with water into a soft dough, rested and rolled into thin rounds. Each roti is cooked on a hot griddle and served fresh with seasonal curry and salad.",
+    "recipe_steps": [
+      "Knead whole-wheat flour with water into a soft dough and let it rest briefly.",
+      "Divide and roll the dough into thin rounds, then cook each on a hot griddle until lightly browned.",
+      "Serve the fresh rotis with seasonal curry and salad."
+    ]
+  },
+  {
+    "name": "Samosa (2 pcs)",
+    "description": "Two crisp pastries stuffed with spiced potato.",
+    "category": "Snacks",
+    "price_paise": 3000,
+    "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Potato",
+      "Wheat flour",
+      "Green peas",
+      "Cumin",
+      "Cooking oil"
+    ],
+    "preparation": "Potatoes and green peas are cooked with cumin and spices, then cooled for the filling. Thin pastry is shaped around the mixture and deep-fried until crisp and evenly golden.",
+    "recipe_steps": [
+      "Cook potato and green peas with cumin and spices, then cool the filling completely.",
+      "Shape pastry around a portion of filling into a sealed triangle.",
+      "Fry in hot oil until crisp and golden, drain and serve warm."
+    ]
+  },
+  {
+    "name": "Pav Bhaji",
+    "description": "Buttery pav with a flavorful vegetable mash.",
+    "category": "Snacks",
+    "price_paise": 7000,
+    "image_url": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Potato",
+      "Cauliflower",
+      "Green peas",
+      "Tomato",
+      "Onion",
+      "Capsicum",
+      "Ginger and garlic",
+      "Pav bhaji masala",
+      "Butter",
+      "Pav bread",
+      "Coriander",
+      "Lemon",
+      "Salt"
+    ],
+    "preparation": "Potatoes, cauliflower and green peas are boiled until tender, then mashed on a hot griddle with butter. Onion, capsicum, ginger, garlic and tomatoes cook down with pav bhaji masala before the vegetables are folded in and simmered until the bhaji is thick, glossy and well seasoned. It is finished with butter, coriander and lemon, and served with pav toasted separately on the griddle.",
+    "recipe_steps": [
+      "Boil the potatoes, cauliflower and green peas until tender. Drain them, then roughly mash the vegetables.",
+      "Melt butter on a hot pan or griddle. Add chopped onion and cook until soft, then stir in ginger, garlic and capsicum until fragrant.",
+      "Add chopped tomatoes, pav bhaji masala and salt. Cook, stirring, until the tomatoes soften and the spices smell aromatic.",
+      "Mix in the mashed vegetables with a splash of water. Mash and simmer for 8–10 minutes, stirring until the bhaji is thick and evenly combined; adjust the seasoning.",
+      "Finish with butter, chopped coriander and lemon juice. Split and butter-toast the pav until golden, then serve hot with the bhaji and lemon wedges."
+    ]
+  },
+  {
+    "name": "Veg Spring Rolls",
+    "description": "Crunchy rolls filled with seasoned vegetables.",
+    "category": "Snacks",
+    "price_paise": 6500,
+    "image_url": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Spring roll wrapper",
+      "Cabbage",
+      "Carrot",
+      "Bell pepper",
+      "Soy sauce"
+    ],
+    "preparation": "Cabbage, carrot and bell pepper are finely sliced and tossed with savory seasoning in a hot pan. The cooled filling is rolled tightly in thin wrappers and fried until the outside is crisp and golden.",
+    "recipe_steps": [
+      "Shred cabbage, carrot and bell pepper, then stir-fry with soy sauce until tender-crisp; let the filling cool.",
+      "Place filling on a wrapper, fold in the sides and roll tightly, sealing the edge with a little water.",
+      "Fry the rolls until crisp and golden, drain and serve hot."
+    ]
+  },
+  {
+    "name": "Pani Puri",
+    "description": "Crisp puris with potato and tangy spiced water.",
+    "category": "Snacks",
+    "price_paise": 4000,
+    "image_url": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Puri",
+      "Potato",
+      "Chickpeas",
+      "Mint",
+      "Tamarind"
+    ],
+    "preparation": "Potato and chickpeas are seasoned and spooned into crisp, hollow puris. Each puri is filled just before eating with mint and tamarind water so it stays crunchy and tangy.",
+    "recipe_steps": [
+      "Season cooked potato and chickpeas, then crack a small opening in the top of each puri.",
+      "Fill each puri with the potato mixture and a little mint and tamarind chutney.",
+      "Pour in chilled spiced water just before serving and eat immediately while crisp."
+    ]
+  },
+  {
+    "name": "French Fries",
+    "description": "Golden crisp fries lightly seasoned with salt.",
+    "category": "Snacks",
+    "price_paise": 7000,
+    "image_url": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Potato",
+      "Cooking oil",
+      "Salt"
+    ],
+    "preparation": "Potatoes are cut into even sticks and rinsed to remove excess surface starch, then dried well. They are fried until crisp and golden and seasoned with salt while still hot.",
+    "recipe_steps": [
+      "Cut potatoes into even sticks, rinse away excess starch and dry them thoroughly.",
+      "Fry the potatoes until tender, allow them to cool briefly, then fry again until crisp and golden.",
+      "Drain and season with salt while hot; serve immediately."
+    ]
+  },
+  {
+    "name": "Veg Sandwich",
+    "description": "Grilled sandwich layered with fresh vegetables.",
+    "category": "Snacks",
+    "price_paise": 5000,
+    "image_url": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Bread",
+      "Tomato",
+      "Cucumber",
+      "Onion",
+      "Green chutney"
+    ],
+    "preparation": "Bread is spread with green chutney and layered with sliced tomato, cucumber and onion. The sandwich is pressed and toasted until the bread is crisp and the vegetable layers are warm.",
+    "recipe_steps": [
+      "Spread green chutney on the bread and layer with sliced tomato, cucumber and onion.",
+      "Close the sandwich and toast or grill it until the bread is crisp and the filling is warm.",
+      "Cut into portions and serve while hot."
+    ]
+  },
+  {
+    "name": "Cheese Burger",
+    "description": "Vegetable patty, cheese and fresh burger toppings.",
+    "category": "Snacks",
+    "price_paise": 9000,
+    "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Burger bun",
+      "Vegetable patty",
+      "Cheese",
+      "Lettuce",
+      "Tomato"
+    ],
+    "preparation": "A seasoned vegetable patty is cooked on a hot griddle until crisp outside and heated through. It is placed in a toasted bun with cheese, lettuce and tomato, then served with the chosen sauces.",
+    "recipe_steps": [
+      "Cook the vegetable patty on a hot griddle until crisp outside and hot in the middle.",
+      "Toast the burger bun, then layer the patty with cheese, lettuce and tomato.",
+      "Add sauces as desired, close the bun and serve immediately."
+    ]
+  },
+  {
+    "name": "Chicken Burger",
+    "description": "Crispy chicken patty with cheese and sauces.",
+    "category": "Snacks",
+    "price_paise": 12000,
+    "image_url": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=82",
+    "is_veg": false,
+    "is_available": true,
+    "ingredients": [
+      "Burger bun",
+      "Chicken patty",
+      "Lettuce",
+      "Mayonnaise",
+      "Seasoning"
+    ],
+    "preparation": "A seasoned chicken patty is cooked until the center is fully done and the outside is crisp. It is layered in a soft toasted bun with lettuce, mayonnaise and other toppings before serving.",
+    "recipe_steps": [
+      "Cook the chicken patty on a hot griddle or in an oven until fully cooked through.",
+      "Toast the bun and layer it with lettuce, the chicken patty, cheese and mayonnaise.",
+      "Close the burger and serve hot with the chosen sides."
+    ]
+  },
+  {
+    "name": "Veg Momos",
+    "description": "Steamed dumplings filled with seasoned vegetables.",
+    "category": "Snacks",
+    "price_paise": 7000,
+    "image_url": "https://images.unsplash.com/photo-1626776876729-bab4369a5a5a?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Wheat flour",
+      "Cabbage",
+      "Carrot",
+      "Onion",
+      "Garlic"
+    ],
+    "preparation": "Cabbage, carrot, onion and garlic are chopped finely, seasoned and wrapped in thin wheat dough. The dumplings are pleated closed and steamed until the wrappers are tender and the filling is hot.",
+    "recipe_steps": [
+      "Finely chop cabbage, carrot, onion and garlic, then season and mix the vegetables.",
+      "Add a small portion of filling to each dough wrapper, pleat the edges and seal securely.",
+      "Steam until the wrappers are tender and the filling is hot; serve with chutney."
+    ]
+  },
+  {
+    "name": "Chicken Momos",
+    "description": "Juicy chicken dumplings served hot with chutney.",
+    "category": "Snacks",
+    "price_paise": 9000,
+    "image_url": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=900&q=82",
+    "is_veg": false,
+    "is_available": true,
+    "ingredients": [
+      "Wheat flour",
+      "Chicken",
+      "Onion",
+      "Ginger",
+      "Garlic"
+    ],
+    "preparation": "Minced chicken is mixed with onion, ginger, garlic and seasoning to make a savory filling. Small portions are wrapped in thin dough, pleated and steamed until the chicken is fully cooked.",
+    "recipe_steps": [
+      "Mix chicken with chopped onion, ginger, garlic and seasoning until evenly combined.",
+      "Place a small portion on each dough wrapper, pleat the edges and seal the dumplings.",
+      "Steam until the chicken filling is fully cooked and serve hot with chutney."
+    ]
+  },
+  {
+    "name": "Onion Pakoda",
+    "description": "Crispy onion fritters with gram flour coating.",
+    "category": "Snacks",
+    "price_paise": 4000,
+    "image_url": "https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Onion",
+      "Gram flour",
+      "Carom seeds",
+      "Chili powder",
+      "Cooking oil"
+    ],
+    "preparation": "Onions are sliced and coated in a light gram-flour batter seasoned with carom seeds and chili. Small portions are dropped into hot oil and fried until crisp, then drained before serving.",
+    "recipe_steps": [
+      "Mix gram flour with carom seeds, chili powder and enough water to make a light batter.",
+      "Coat the sliced onion, separate it into small clusters and carefully drop them into hot oil.",
+      "Fry until crisp and golden, drain well and serve hot."
+    ]
+  },
+  {
+    "name": "Bread Pizza",
+    "description": "Toasted bread topped with cheese and vegetables.",
+    "category": "Snacks",
+    "price_paise": 8000,
+    "image_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Bread",
+      "Tomato sauce",
+      "Cheese",
+      "Bell pepper",
+      "Oregano"
+    ],
+    "preparation": "Bread is spread with tomato sauce and topped with chopped vegetables, cheese and oregano. It is toasted until the base is crisp and the cheese melts over the warm topping.",
+    "recipe_steps": [
+      "Spread tomato sauce over the bread and add chopped bell pepper, cheese and oregano.",
+      "Toast in a covered pan or oven until the bread is crisp and the cheese has melted.",
+      "Cut into pieces and serve hot."
+    ]
+  },
+  {
+    "name": "Cold Coffee",
+    "description": "Chilled creamy coffee with a frothy finish.",
+    "category": "Drinks",
+    "price_paise": 8000,
+    "image_url": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Coffee",
+      "Milk",
+      "Sugar",
+      "Ice",
+      "Chocolate"
+    ],
+    "preparation": "Coffee is dissolved or brewed and cooled before blending with chilled milk, sugar and ice. The mixture is whipped until smooth and foamy, then poured cold into a glass.",
+    "recipe_steps": [
+      "Brew or dissolve the coffee, then cool it before blending.",
+      "Blend coffee with chilled milk, sugar and ice until smooth and foamy.",
+      "Pour into a cold glass and serve immediately."
+    ]
+  },
+  {
+    "name": "Mango Juice",
+    "description": "Refreshing juice made from ripe mangoes.",
+    "category": "Drinks",
+    "price_paise": 5000,
+    "image_url": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Mango",
+      "Water",
+      "Sugar",
+      "Lime"
+    ],
+    "preparation": "Ripe mango flesh is blended with cold water until smooth, with sugar added only as needed. A squeeze of lime brightens the flavor before the juice is served chilled.",
+    "recipe_steps": [
+      "Peel and chop ripe mango, removing the stone.",
+      "Blend the mango with cold water until smooth, adding sugar only if needed.",
+      "Add a little lime juice, chill briefly and serve."
+    ]
+  },
+  {
+    "name": "Masala Chai",
+    "description": "Hot milk tea brewed with aromatic spices.",
+    "category": "Drinks",
+    "price_paise": 2000,
+    "image_url": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Tea leaves",
+      "Milk",
+      "Ginger",
+      "Cardamom",
+      "Sugar"
+    ],
+    "preparation": "Tea leaves are simmered with ginger and cardamom so their flavor infuses the water. Milk and sugar are added, the chai is brought briefly to a boil, then strained hot into a cup.",
+    "recipe_steps": [
+      "Simmer tea leaves with crushed ginger and cardamom in water.",
+      "Add milk and sugar, bring the chai briefly to a boil and stir.",
+      "Strain into cups and serve hot."
+    ]
+  },
+  {
+    "name": "Fresh Lime Soda",
+    "description": "Sparkling lime soda, sweet or salty.",
+    "category": "Drinks",
+    "price_paise": 4000,
+    "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Lime",
+      "Sparkling soda",
+      "Black salt",
+      "Sugar",
+      "Mint"
+    ],
+    "preparation": "Fresh lime juice is mixed with sugar or salt and topped with chilled sparkling soda. The drink is stirred gently and served over ice so it keeps its fizz.",
+    "recipe_steps": [
+      "Squeeze fresh lime juice into a glass and stir in sugar or salt to taste.",
+      "Add chilled sparkling soda and ice, then stir gently to retain the fizz.",
+      "Serve immediately with a lime slice if desired."
+    ]
+  },
+  {
+    "name": "Strawberry Milkshake",
+    "description": "Creamy milkshake blended with strawberries.",
+    "category": "Drinks",
+    "price_paise": 7000,
+    "image_url": "https://images.unsplash.com/photo-1579954115563-e72bf1381629?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Strawberries",
+      "Milk",
+      "Sugar",
+      "Ice"
+    ],
+    "preparation": "Fresh strawberries are hulled and blended with chilled milk, sugar and ice. The shake is blended until creamy and smooth, then served immediately while cold.",
+    "recipe_steps": [
+      "Wash, hull and slice the strawberries.",
+      "Blend the fruit with chilled milk, sugar and ice until creamy and smooth.",
+      "Pour into a chilled glass and serve immediately."
+    ]
+  },
+  {
+    "name": "Sweet Lassi",
+    "description": "Chilled sweetened yogurt drink.",
+    "category": "Drinks",
+    "price_paise": 4500,
+    "image_url": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Yogurt",
+      "Water",
+      "Sugar",
+      "Cardamom"
+    ],
+    "preparation": "Yogurt is whisked until smooth, then blended with cold water, sugar and cardamom. The lassi is chilled and poured with a light frothy top.",
+    "recipe_steps": [
+      "Whisk the yogurt until smooth and loosen it with cold water.",
+      "Blend in sugar and cardamom until lightly frothy.",
+      "Chill and serve cold."
+    ]
+  },
+  {
+    "name": "Buttermilk",
+    "description": "Cooling spiced chaas with fresh herbs.",
+    "category": "Drinks",
+    "price_paise": 2500,
+    "image_url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Yogurt",
+      "Water",
+      "Roasted cumin",
+      "Mint",
+      "Salt"
+    ],
+    "preparation": "Yogurt is whisked with cold water until light and pourable, then seasoned with salt and roasted cumin. Mint is blended or stirred in before the chaas is served chilled.",
+    "recipe_steps": [
+      "Whisk yogurt with cold water until smooth and pourable.",
+      "Stir in salt, roasted cumin and chopped mint.",
+      "Chill briefly and serve as a refreshing accompaniment."
+    ]
+  },
+  {
+    "name": "Oreo Milkshake",
+    "description": "Chocolate cookies blended with cold milk.",
+    "category": "Drinks",
+    "price_paise": 9000,
+    "image_url": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Chocolate sandwich cookies",
+      "Milk",
+      "Vanilla ice cream"
+    ],
+    "preparation": "Chocolate sandwich cookies are crushed and blended with chilled milk and vanilla ice cream. The shake is mixed until creamy, with a few cookie pieces kept for texture if desired.",
+    "recipe_steps": [
+      "Break the chocolate sandwich cookies into pieces.",
+      "Blend the cookies with chilled milk and vanilla ice cream until thick and creamy.",
+      "Pour into a cold glass and serve immediately."
+    ]
+  },
+  {
+    "name": "Chocolate Milkshake",
+    "description": "Rich chocolate milkshake topped with cream.",
+    "category": "Drinks",
+    "price_paise": 8000,
+    "image_url": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Milk",
+      "Cocoa",
+      "Sugar",
+      "Chocolate ice cream"
+    ],
+    "preparation": "Cocoa and sugar are blended with cold milk and chocolate ice cream until no dry cocoa remains. The shake is served immediately while thick and cold.",
+    "recipe_steps": [
+      "Whisk cocoa and sugar with a small splash of milk until smooth.",
+      "Add the remaining cold milk and chocolate ice cream, then blend until creamy.",
+      "Pour into a chilled glass and serve immediately."
+    ]
+  },
+  {
+    "name": "Water Bottle",
+    "description": "Chilled sealed packaged drinking water.",
+    "category": "Drinks",
+    "price_paise": 2000,
+    "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=82",
+    "is_veg": true,
+    "is_available": true,
+    "ingredients": [
+      "Packaged drinking water"
+    ],
+    "preparation": "The sealed drinking-water bottle is chilled without opening so it stays clean and ready to serve. It is presented cold as a simple accompaniment to any meal.",
+    "recipe_steps": [
+      "Check that the bottle is sealed and the packaging is intact.",
+      "Chill the bottle until cold.",
+      "Serve unopened until ready to drink."
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+title = "TrayUP secret scanning"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Development placeholders that are committed on purpose and are not usable credentials."
+regexes = [
+  '''dev-only-change-me''',
+  '''replace-with-a-random-secret-at-least-32-characters-long''',
+  '''test-secret-key''',
+  '''test_webhook_secret''',
+  '''StrongPass123!''',
+  '''wrong-password''',
+  '''not-the-secret''',
+]
